@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-three-midi/static/css/main.ebd883e5.chunk.css",
-    "main.js": "/react-three-midi/static/js/main.8c4a9838.chunk.js",
-    "main.js.map": "/react-three-midi/static/js/main.8c4a9838.chunk.js.map",
+    "main.js": "/react-three-midi/static/js/main.687098ba.chunk.js",
+    "main.js.map": "/react-three-midi/static/js/main.687098ba.chunk.js.map",
     "runtime-main.js": "/react-three-midi/static/js/runtime-main.e2c8ca88.js",
     "runtime-main.js.map": "/react-three-midi/static/js/runtime-main.e2c8ca88.js.map",
     "static/js/2.43d7470a.chunk.js": "/react-three-midi/static/js/2.43d7470a.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.e2c8ca88.js",
     "static/js/2.43d7470a.chunk.js",
     "static/css/main.ebd883e5.chunk.css",
-    "static/js/main.8c4a9838.chunk.js"
+    "static/js/main.687098ba.chunk.js"
   ]
 }
