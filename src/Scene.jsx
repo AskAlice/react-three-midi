@@ -19,7 +19,7 @@ export default function Model(props) {
   const group = useRef()
   const stars = useRef()
   const color = useRef(hslToHex((new Date()%360),100,50));
-  const { nodes, materials, animations } = useGLTF('/assets/scifi/scene.gltf')
+  const { nodes, materials, animations } = useGLTF('assets/scifi/scene.gltf')
   const { actions } = useAnimations(animations, group)
   console.log(actions)
   const {camera} = useThree();
@@ -193,3 +193,4 @@ export default function Model(props) {
 }
 
 
+useGLTF.preload('assets/scifi/scene.gltf')

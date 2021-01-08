@@ -12,7 +12,7 @@ import { useFrame } from 'react-three-fiber'
 
 export default function Crystal(props) {
   const group = useRef()
-  const { nodes, materials } = useGLTF('/assets/crystal/scene.gltf')
+  const { nodes, materials } = useGLTF('assets/crystal/scene.gltf')
   useFrame(()=>{
     if(group?.current){
       window.audioAnalyzerData.analyzer.getByteFrequencyData(window.audioAnalyzerData.dataArray);
@@ -34,4 +34,4 @@ export default function Crystal(props) {
   )
 }
 
-useGLTF.preload('/assets/crystal/scene.gltf')
+useGLTF.preload('assets/crystal/scene.gltf')
